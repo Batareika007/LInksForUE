@@ -1,5 +1,18 @@
 html{
     font-family: 'Roboto', sans-serif;
+    background-image: url(img/unreal-engine-5-requeriments-2.jpg);
+    color: white;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-transform: capitalize;
+    text-align: center;
 }
 
 .container{
@@ -17,6 +30,10 @@ section{
     flex-basis: 200px;
     padding: 1rem;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 1rem;
+backdrop-filter: blur(16.1px);
+-webkit-backdrop-filter: blur(16.1px);
 }
 
 ul, li{
