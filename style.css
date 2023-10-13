@@ -1,0 +1,41 @@
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+main{
+     display: flex;
+     flex-wrap: wrap;
+     gap: 2rem;
+}
+
+section{
+    flex-basis: 200px;
+    padding: 1rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+ul, li{
+    list-style: none;
+    padding: 0.1rem 0;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+a:visited{
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover{
+    position: relative;
+    /* font-size: 120%; */
+    font-weight: bold;
+}
